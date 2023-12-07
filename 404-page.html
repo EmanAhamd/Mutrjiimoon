@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Lato:ital,wght@1,100;1,300&family=Lora:ital@1&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins:wght@300;400;500&family=Roboto:wght@100&family=Tajawal:wght@200;300;400;500&family=Work+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .error{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            margin-top: 5%;
+            color: #0B5355;
+        }
+        .error h1{
+            font-size: 130px;
+        }
+        .error p{
+            font-size: 19px;
+        }
+        .err-btn:hover{
+            box-shadow: inset  0 -134px 0 0 #EAB25E;
+        }
+        .min-scr{display: none;}
+        @media (max-width: 768px) {
+            .min-scr{display: block;}
+            .big-scr{display: none;}
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html">
+                <img class="logo" src="images/logo.png"   alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" aria-current="page" href="About-us.html">About us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link my-nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"  aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu services-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="service-details.html">Localization</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Translation</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Voice Over</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Transcription</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Proofreading</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="translate.html">Translate</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="freelancer.html">Freelancer</a>
+                </li>
+
+                <li class="nav-item my-quote text-center">
+                    <a class="nav-link px-4" href="quote.html">Quote</a>
+                </li>
+
+                <li class="nav-item my-contact">
+                    <a class="nav-link px-4" href="contact-us.html">Contact us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    AR
+                    </a>
+                    <ul class="dropdown-menu lang-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">KR</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="error text-center">
+            <div>
+                <h1 class="mb-2">404</h1>
+                <h3 class="mb-5">Page Not Found</h3>
+                <p class="mb-0 big-scr">The page you're looking for seems to have gone on a little adventure.</p>
+                <p class="mb-4 big-scr">We apologize for the inconvenience.</p>
+                <p class="min-scr">The page you're looking for seems to have gone on a little adventure.We apologize for the inconvenience.
+                </p>
+                <div class="text-center mb-5" style="margin: auto;">
+                    <button class="lang-btn err-btn"><a href="index.html">Back to home</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

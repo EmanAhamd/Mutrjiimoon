@@ -1,0 +1,113 @@
+.single-about-header {
+    margin-top: 5%;
+    background-color: #d8e2e3;
+    border-radius: 30px;
+    background-image: url(../images/Group35about.png);
+    background-size: contain;
+    background-position: center center;
+}
+.single-about-header-col {
+    padding-right: 0 !important;
+}
+.single-about-pic {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.single-about-header h2 {
+    color: #0b5355;
+    line-height: 42px;
+    width: 50%;
+}
+.about-why-us p {
+    color: #0b5355;
+}
+.about-why-us1,
+.vision-mission h2 {
+    font-size: 30px;
+}
+.about-why-us2 {
+    font-size: 20px;
+}
+.about-numbers {
+    margin-top: 5%;
+}
+.vision-pic{
+    border-radius: 30px;
+}
+.vision-mission{
+    margin-top: 5%;
+
+}
+.vision-mission h2{
+    color: #0b5355;
+}
+.mission-col{
+    padding-top: 50%;
+    background-image: url(../images/Group35about.png);
+    background-size: contain;
+}
+.our-history{
+    background-color: #eab25e;
+    margin-top: 5%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+
+}
+.our-history h2{
+    color: #0b5355;
+    font-size: 30px;
+    
+}
+.our-history-p{
+    width: 70%;
+    margin-bottom: 10%;
+}
+.ch-mess{
+    margin-top: 5%;
+}
+
+
+
+
+.serviceHolder {
+    margin-top: 5% !important;
+}
+.expHolder h2 {
+    color: #0b5355;
+    line-height: 50px;
+}
+.expHolder {
+    background-color: #eab25e;
+    border-radius: 20px;
+}
+.exp-content {
+    padding: 20% 10px 20% 20%;
+}
+.lang-btn {
+    margin: inherit;
+}
+.trans-logo {
+    height: 80%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .single-about-header h2 {
+    width: 100%;
+  }
+  .single-about-pic {
+    height: 515px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .single-about-pic {
+    border-radius: 30px;
+    margin-top: 15px;
+  }
+  .single-about-header-col {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .single-about-header h2 {
+    line-height: 35px;
+  }
+}

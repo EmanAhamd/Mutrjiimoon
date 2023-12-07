@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Lato:ital,wght@1,100;1,300&family=Lora:ital@1&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins:wght@300;400;500&family=Roboto:wght@100&family=Tajawal:wght@200;300;400;500&family=Work+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .singleContactHolder{margin-top: 5%;}
+        .singleContactHolder h2{color: #0B5355;font-size: 45px; word-spacing: 8px;}
+        .sub-btn2{margin-top: 10%;color: #0B5355;}
+        .sub-btn2:hover{color: #EAB25E;}
+        .contact-form{margin-left: 0;}
+        .contact-extra{margin-left: 20%;}
+        .contact-map{margin-top: 2%;}
+        .blog-footer{border-top: 2px solid #0b5255ad; }
+        @media screen and (max-width:992px) {.singleContactHolder h2{font-size: 35px !important; word-spacing: 4px;}}
+        @media screen and (max-width:575px) {
+            .contact-extra{margin-left: 1%;margin-top: 50px;} 
+            .singleContactHolder h2{font-size: 35px !important; word-spacing: 4px;}
+        }
+        @media screen and (min-width:500px)and (max-width:767px){.contact-extra{margin-left: 1%;margin-top: 50px;}}
+        @media screen and (max-width:768px){iframe{width: 80%;}}
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="index.html">
+                    <img class="logo" src="images/logo.png"   alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" aria-current="page" href="About-us.html">About us</a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link my-nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"  aria-expanded="false">
+                        Services
+                        </a>
+                        <ul class="dropdown-menu services-menue" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="service-details.html">Localization</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Translation</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Voice Over</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Transcription</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Proofreading</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="translate.html">Translate</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link my-nav-link" href="freelancer.html">Freelancer</a>
+                    </li>
+    
+                    <li class="nav-item my-quote text-center">
+                        <a class="nav-link px-4" href="quote.html">Quote</a>
+                    </li>
+    
+                    <li class="nav-item my-contact">
+                        <a class="nav-link  nav-contact px-4"  href="contact-us.html">Contact us</a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        AR
+                        </a>
+                        <ul class="dropdown-menu lang-menue" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">EN</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">KR</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+    <!-- contact -->
+    <div class="container singleContactHolder">
+        <p style="color: #0B5355; font-size: 18px;">
+            <span style="opacity: .6;" >HOME / </span>
+            <span >CONTACT US</span></p>
+        
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div>
+                    <h2 class="mb-3">LET'S GET IN TOUCH</h2>
+                    <div class="contact-form">
+                        <form >
+                            <div class="form-floating mb-3 input-f">
+                                <input type="text" required name="name" class="form-control" id="floatingInput" placeholder="Name: ">
+                                <label for="floatingInput" class="label-fl">Name: </label>
+                            </div>
+
+                            <div class="form-floating mb-3 input-f">
+                                <input type="email" required name="email" class="form-control" id="floatingInput" placeholder="Email: ">
+                                <label for="floatingInput" class="label-fl">Email: </label>
+                            </div>
+
+                            <div class="form-floating mb-3 input-f">
+                                <input type="text" required name="name" class="form-control" id="floatingInput" placeholder="Phone Number:* ">
+                                <label for="floatingInput" class="label-fl">Phone Number:* </label>
+                            </div>
+                            
+                            <div class="form-floating mb-3 input-f">
+                                <input type="text" required name="message" class="form-control" id="floatingInput" placeholder="Message: ">
+                                <label for="floatingInput" class="label-fl">Message: </label>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="read-more-btn sub-btn2">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="w-75 contact-extra">
+                    <p style="margin-bottom: 40%;">
+                        Your success is our priority. Contact us to explore how we can assist you.</p>
+                    <p class="mb-4" style="color: #0B5355; font-size: 20px;">NEED HELP?</p>
+                    <p>Phone: 02 01000322295</p>
+                    <p>E-mail: translate@mutarjimoon.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-12 mb-3">
+                <div class="text-center contact-map" style="border-radius: 20px;">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.119002298354!2d31.34396400000001!3d30.0621232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f275663064d%3A0x5b787cc80d483dc0!2zTXV0YXJqaW1vb24gVHJhbnNsYXRpb24gU2VydmljZXMg2YXYqtix2KzZhdmI2YYg2YTYrtiv2YXYp9iqINin2YTYqtix2KzZhdip!5e0!3m2!1sar!2seg!4v1693660204502!5m2!1sar!2seg" width="64%" height="300" style="border:0; border-radius: 20px; margin: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                </div>
+            </div>
+            <div class="row mb-2 " style="width: 65%;margin-left: auto;margin-right: auto;" >
+                <div class="col-md-6">
+                    <div style="margin: auto;">
+                        <p style="font-size: 22px; color: #0B5355; margin-bottom: 10px;">WORKING HOURS</p>
+                        <p style="text-align: left;">Sunday to Thursday</p>
+                        <p style="text-align: left;">From 9 am to 5 pm</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div style="margin: auto;">
+                        <p style="font-size: 22px; color: #0B5355; margin-bottom: 10px;">LOCATION</p>
+                        <p style="  text-align: left;">42 Fareek Awal Ali Amer St., Makram 
+                            Ebeid St., 6th District, Nasr City, Cairo Arab 
+                            Republic of Egypt</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid mt-5 py-5 blog-footer" >
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="px-4">
+                        <img src="images/logo.png" class="mb-3" style="width: 60%;">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span  class="footer-br"><br></span> Phasellus vestibulum rhoncus odio. Duis</p>
+                        <p style="color: #0B5355;">Phone: 02 01000322295</p>
+                        <p style="color: #0B5355;">E-mail:  translate@mutarjimoon.com</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-4 col-md-6 col-sm-6  col-xs-6 item">
+                    <div class="ps-5 foot-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About-us.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="freelancer.html">Freelancer</a></li>
+
+                            <div class="footer-icon">
+                                <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                                    style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 item">
+                    <div>
+                        <ul>
+                        <li><a href="translate.html">Quick Translate</a></li>
+                            <li><a href="quote.html">quote</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="footer-icon2 text-center mt-5">
+                        <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                            style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+            </div>
+        </div> 
+    </div>     
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+.expHolder h2 {
+  color: #0b5355;
+  line-height: 50px;
+}
+.expHolder {
+  background-color: #eab25e;
+  border-radius: 20px;
+}
+.exp-content {
+  padding: 20% 10px 20% 20%;
+}
+.lang-btn {
+  margin: inherit;
+}
+.trans-logo {
+  height: 80%;
+}
+.blog-footer {
+  border-top: 2px solid #0b5255ad;
+}
+.blog-hedline p {
+  font-size: 18px;
+}
+.blog-hedline {
+  margin-top: 5%;
+}
+.translateHolder {
+  margin-top: 5%;
+}
+.translateHolder h2 {
+  color: #0b5355;
+  line-height: 50px;
+  font-size: 45px;
+}
+.trans-btn {
+  color: #0b5355;
+}
+.trans-btn:hover {
+  color: #eab25e;
+}
+#myText {
+  border: 1px solid #0b525598 !important;
+  border-radius: 25px;
+  padding: 20px;
+}
+#myText::placeholder {
+  color: #0b525598;
+  font-size: 25px;
+}
+#myTranslate::placeholder {
+  color: #0b5355;
+  font-size: 25px;
+}
+#myTranslate {
+  background-color: #d8e2e3 !important;
+  border-radius: 25px;
+  padding: 20px;
+}
+.fa-right-left {
+  color: #eab25e;
+  font-size: 1.2rem;
+}
+.fa-right-left:hover {
+  cursor: pointer;
+  color: #0b5355;
+  font-size: 1.3rem;
+}
+/* select > option {
+  background: pink; 
+} */
+.my-select {
+  border: 1.6px solid #0b5355;
+  border-radius: 8px;
+  background-color: #eeeeee;
+  width: 100%;
+  transition: width .3s ease-in-out;
+}
+select{
+    border-radius: 8px;
+}
+select{
+  color: #0b5355 !important;
+  font-size: 18px !important;
+}
+option{
+    color: #0b5255b6 !important;
+    font-size: 18px !important;
+}
+
+
+
+option:checked{
+    color: #0b5355 !important;
+    background-color: transparent;
+}
+
+option:hover{
+    color: #0b5355 !important;
+    font-size: 20px !important;
+}
+select:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1.6px solid #0b5355 !important;
+    /* width: 110% !important; */
+    filter: drop-shadow(0px 3px 3px rgba(11,83,85,0.13 )) !important;
+    position: relative;
+    z-index: 1000;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .blog-hedline {
+    flex-wrap: wrap;
+  }
+  .w-50 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .fa-right-left{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.exp-content {
+  padding: 20% 10px 20% 7%;
+}
+.exp-content p{
+  width: 84%;
+}
+}

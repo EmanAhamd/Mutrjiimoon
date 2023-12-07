@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Lato:ital,wght@1,100;1,300&family=Lora:ital@1&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins:wght@300;400;500&family=Roboto:wght@100&family=Tajawal:wght@200;300;400;500&family=Work+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <!-- splid -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css" integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <style>
+        .splide__arrow--next {
+            display: none;
+        }
+        .splide__arrow--prev {
+            display: none;
+        }
+        .splide__pagination__page.is-active {
+            background: #0B5355 !important;
+            transform: scale(1.4);
+            z-index: 1;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html">
+                <img class="logo" src="images/logo.png"   alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" aria-current="page" href="About-us.html">About us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link my-nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"  aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu services-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="service-details.html">Localization</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Translation</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Voice Over</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Transcription</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Proofreading</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="translate.html">Translate</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="freelancer.html">Freelancer</a>
+                </li>
+
+                <li class="nav-item my-quote text-center">
+                    <a class="nav-link px-4" href="quote.html">Quote</a>
+                </li>
+
+                <li class="nav-item my-contact">
+                    <a class="nav-link px-4" href="contact-us.html">Contact us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    AR
+                    </a>
+                    <ul class="dropdown-menu lang-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">KR</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About header -->
+    <div class="container single-about-header">
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="ps-2">
+                    <p style="color: #0B5355;margin-top: 15%;margin-bottom: 10%;font-size: 18px;">ABOUT US</p>
+                    <h2 class="mb-4">Innovating for a Better Tomorrow</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis, auctor eros rhoncus, tempus leo. Aenean sollicitudin interdum fringilla. Sed sit amet mauris consectetur, pretium odio a, eleifend sem. Duis elementum orci quis mi finibus, vel scelerisque neque congue. Sed dignissim dui sit amet lectus malesuada, quis tincidunt nulla maximus.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 single-about-header-col">
+                <div>
+                    <img src="images/single-about-header.png" class="w-100 single-about-pic" alt="pic">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- about-numbers -->
+    <div class="container about-numbers">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-why-us">
+                    <p class="about-why-us1">WHY CHOOSE US?</p>
+                    <p class="about-why-us2">Experience-driven Solutions</p>
+                    <p class="about-why-us2">for Your Success</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <div class="num-content">
+                        <p class="num-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sit cum aperiam consequatur labore velit deleniti exercitationem assumenda dolor. Recusandae maxime beatae doloribus architecto necessitatibus sapiente placeat, rerum perferendis facilis.
+                        </p>
+                        <div class="row nums">
+                            <div class="col-sm-3 ">
+                                <div class="num text-center">
+                                    <p class="mb-0 h1"><span class="number" data-goal="20">0</span>+</p>
+                                    <p class="num-desc">Translated <br> Words</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-1 "></div>
+                            <div class="col-sm-3 ">
+                                <div class="num text-center">
+                                    <p class="mb-0 h1"><span class="number" data-goal="30">0</span>+</p>
+                                    <p class="num-desc">Translation<br> Experience</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-1 "></div>
+                            <div class="col-sm-3 ">
+                                <div class="num text-center">
+                                    <p class="mb-0 h1"><span class="number" data-goal="30">0</span>+</p>
+                                    <p class="num-desc">Professional<br> Translators</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- vision % mission -->
+    <div class="container vision-mission">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="pe-5">
+                    <h2 class="mb-3">OUR VISION</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis, auctor eros rhoncus.</p>
+                    <img src="images/vision.png" class="w-100 vision-pic" alt="pic">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mission-col">
+                    <h2 class="mb-3">OUR MISSION</h2>
+                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis, auctor eros rhoncus.</p>
+                    <img src="images/mission2-.png" class="w-100 vision-pic" alt="pic">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our history -->
+    <div class="container-fluid our-history ">
+        <div class="container">
+            <h2>OUR HISTORY</h2>
+            <p class=" our-history-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+
+            <div>
+                <!-- Big screen slider -->
+                <div id="slider1" class="splide big-slid" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                                <p class="mb-4 h3" style="color: #0B5355;">2018</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                                <p class="mb-4 h3" style="color: #0B5355;">2019</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                                <p class="mb-4 h3" style="color: #0B5355;">2020</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                                <p class="mb-4 h3" style="color: #0B5355;">2021</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                            </div>
+                        </li>
+    
+
+                        
+                    </ul>
+                    </div>
+                </div>
+    
+            <!-- Medium screen slider -->
+            <div id="slider2" class="splide mid-slid" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                                <p class="mb-4 h3" style="color: #0B5355;">2018</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                                <p class="mb-4 h3" style="color: #0B5355;">2020</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                                <p class="mb-4 h3" style="color: #0B5355;">2022</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- small screen slider -->
+            <div id="slider3" class="splide sm-slid" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                            <p class="mb-4 h3" style="color: #0B5355;">2018</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="px-4" style="border-right: 2px solid #0B5355; height: 250px;">
+                            <p class="mb-4 h3" style="color: #0B5355;">2020</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <!-- message -->
+    <div class="container ch-mess">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <h2 class="mb-5" style="color: #0B5355;">CHAIRMAN  MESSAGE</h2>
+                    <div class="d-flex">
+                        <img src="images/quot.png" width="40px" height="30px" alt="icon">
+                        <p class="pt-4 pe-4">Sed viverra lectus vitae pellentesque egestas. Donec at pretium nisl. Nulla aliquet vestibulum risus, id feugiat nibh consectetur in. Mauris cursus tincidunt fringilla. Mauris semper neque eget est tempor tempus sed eget ex. Integer lectus arcu, bibendum vitae scelerisque blandit, sodales rutrum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras leo diam, condimentum vel ullamcorper quis, bibendum nec augue. Praesent at ullamcorper libero, vel interdum urna. Maecenas eu rhoncus leo. Duis eget mollis purus. Ut dictum semper accumsan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <img src="images/cman.png" class="w-100 vision-pic" alt="man">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Our client -->
+    <div class="container clientsHolder">
+        <h2>OUR TRUSTED CLIENTS</h2>
+        <p class="pe-5 mb-5 service-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+
+        <div>
+            <!-- Big screen slider -->
+            <div id="slider4" class="splide big-slid" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-01.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-02.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-03.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-05.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-04.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-06.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-07.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-08.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-09.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-10.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-11.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-12.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-13.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-14.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-15.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-16.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-17.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-18.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-19.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-20.png" >
+                    </li>
+                </ul>
+                </div>
+            </div>
+
+            <!-- Medium screen slider -->
+            <div id="slider5" class="splide mid-slid" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-01.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-02.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-03.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-05.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-04.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-06.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-07.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-08.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-09.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-10.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-11.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-12.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-13.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-14.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-15.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-16.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-17.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-18.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-19.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img" src="images/clients/Untitled-2-20.png" >
+                    </li>
+                </ul>
+                </div>
+            </div>
+
+            <!-- small screen slider -->
+            <div id="slider6" class="splide sm-slid" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-01.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-02.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-03.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-05.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-04.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-06.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-07.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-08.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-09.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-10.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-11.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-12.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-13.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-14.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-15.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-16.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-17.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-18.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-19.png" >
+                    </li>
+                    <li class="splide__slide">
+                    <img class="cli-img3" src="images/clients/Untitled-2-20.png" >
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container expHolder mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="exp-content">
+                    <h2 class="mb-3">Experience That <br> Sets Us Apart</h2>
+                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                    <div>
+                        <button class="lang-btn"><a href="contact-us.html">Contact us</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 me-0">
+                <div>
+                    <img src="images/Group 48.png" class="w-100 trans-logo" alt="logo">
+                </div>
+            </div>
+        </div>
+</div>
+
+    <!-- Footer -->
+    <div class="container-fluid mt-5 py-5" >
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="px-4">
+                        <img src="images/logo.png" class="mb-3" style="width: 60%;">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span  class="footer-br"><br></span> Phasellus vestibulum rhoncus odio. Duis</p>
+                        <p style="color: #0B5355;">Phone: 02 01000322295</p>
+                        <p style="color: #0B5355;">E-mail:  translate@mutarjimoon.com</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-4 col-md-6 col-sm-6  col-xs-6 item">
+                    <div class="ps-5 foot-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About-us.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="freelancer.html">Freelancer</a></li>
+
+                            <div class="footer-icon">
+                                <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                                    style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 item">
+                    <div>
+                        <ul>
+                        <li><a href="translate.html">Quick Translate</a></li>
+                            <li><a href="quote.html">quote</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="footer-icon2 text-center mt-5">
+                        <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                            style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js" integrity="sha512-4TcjHXQMLM7Y6eqfiasrsnRCc8D/unDeY1UGKGgfwyLUCTsHYMxF7/UHayjItKQKIoP6TTQ6AMamb9w2GMAvNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //4
+        var splide4 = new Splide( '#slider4', {
+        type    : 'loop',
+        perPage : 5,
+        drag   : 'free',
+        } );
+        splide4.mount();
+
+        //5
+        var splide5 = new Splide( '#slider5', {
+        type    : 'loop',
+        perPage : 3,
+        drag   : 'free',
+        autoplay: true,
+        } );
+        splide5.mount();
+
+        //6
+        var splide6 = new Splide( '#slider6', {
+        type    : 'loop',
+        perPage : 2,
+        drag   : 'free',
+        autoplay: true,
+        } );
+        splide6.mount();
+
+        // 1
+        var splide = new Splide( '#slider1', {
+        type    : 'loop',
+        perPage : 3,
+        drag   : 'free',
+        autoplay: true,
+        } );
+        splide.mount();
+        //2
+        var splide2 = new Splide( '#slider2', {
+        type    : 'loop',
+        perPage : 2,
+        drag   : 'free',
+        } );
+        splide2.mount();
+
+        //3
+        var splide3 = new Splide( '#slider3', {
+        type    : 'loop',
+        perPage : 1,
+        drag   : 'free',
+        } );
+        splide3.mount();
+
+
+    </script>
+</body>
+</html>

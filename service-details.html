@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Detailes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Lato:ital,wght@1,100;1,300&family=Lora:ital@1&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins:wght@300;400;500&family=Roboto:wght@100&family=Tajawal:wght@200;300;400;500&family=Work+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .serviceHolder,.serviceDetailsHolder{margin-top: 5% !important;}
+        .serviceDetailsHolder{margin-bottom: 10%;}
+        .expHolder h2,.serviceDetailsHolder h2{color: #0B5355; line-height: 50px;}
+        .expHolder {background-color: #EAB25E; border-radius: 20px;}
+        .exp-content{padding: 20% 10px 20% 20%;}
+        .lang-btn{margin: inherit;}
+        .trans-logo{height: 80%;}
+        .serv-pic, .serv-pic-holder{border-radius: 20px;}
+        .service-hedline{margin-top: 10%;margin-bottom: 5%;}
+        .service-hedline p{font-size: 18px;}
+        .serv-det-list{list-style: none; font-size: 18px;}
+        .serv-det-list li::before {
+            content: "• ";
+            color: #EAB25E;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        @media screen and (max-width:768px){
+            .service-hedline{flex-wrap: wrap;}
+            .w-50{width: 100% !important;}
+        }
+        @media (max-width: 767px) {
+            .exp-content {
+            padding: 20% 10px 20% 7%;
+            }
+            .exp-content p{
+            width: 84%;
+        }}
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html">
+                <img class="logo" src="images/logo.png"   alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" aria-current="page" href="About-us.html">About us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link my-nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"  aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu services-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="service-details.html">Localization</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Translation</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Voice Over</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Transcription</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Proofreading</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="translate.html">Translate</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="freelancer.html">Freelancer</a>
+                </li>
+
+                <li class="nav-item my-quote text-center">
+                    <a class="nav-link px-4" href="quote.html">Quote</a>
+                </li>
+
+                <li class="nav-item my-contact">
+                    <a class="nav-link px-4" href="contact-us.html">Contact us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    AR
+                    </a>
+                    <ul class="dropdown-menu lang-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">KR</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- service details -->
+    <div class="serviceDetailsHolder">
+        <div class="container">
+            <p style="color: #0B5355; font-size: 18px;">
+                <span style="opacity: .6;" >HOME / SERVICES / </span>
+                <span >LOCALIZATION</span></p>
+
+                <div>
+                    <div class="service-hedline d-flex justify-content-between ">
+                        <h2>LOCALIZATION</h2>
+                        <p class="w-50">Localization is simply explaining to your client/customer their need for your product.</p>
+                    </div>
+                    <div>
+                        <div class="serv-pic-holder">
+                            <img src="images/service-detailes.png" class="serv-pic w-100 mb-5" alt="pic">
+                        </div>
+                        <p class="px-3" style="font-size: 18px;">Localization is simply explaining to your client/customer their need for your product or service in their own language and dialect and according to their culture's norms. Thus, localization is "molding" the translated material into the local client's language, culture, and mentality. This necessarily entails understanding:</p>
+                        <ul class="serv-det-list mx-5">
+                            <li>The product's nature</li>
+                            <li>The country's language, culture, terminologies, and needs</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="container serviceHolder">
+        <h2 class="mb-4">EXPLORE MORE SERVICES:</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-service me-2">
+                    <img src="images/demo2.jpg" class="w-100 h-100 service-img" alt="service">
+                    <div class="service-layout"></div>
+                    <div class="servic-content">
+                        <p class="service-desc" style="margin-bottom: 158px;">That's why voice-over requires high quality, clarity, and tones that suit each...</p>
+                        <p class="service-name">Voice Over
+                            <span>
+                                <a href="" class="service-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <span class="arrow-circle"></span>
+                                </a>
+                                
+                            </span>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-service me-2">
+                    <img src="images/service-demo.jpg" class="w-100 h-100 service-img" alt="service">
+                    <div class="service-layout"></div>
+                    <div class="servic-content">
+                        <p class="service-desc" style="margin-bottom: 158px;">We have always believed that meanings are way stronger than words...</p>
+                        <p class="service-name">Content Writing
+                            <span>
+                                <a href="" class="service-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <span class="arrow-circle"></span>
+                                </a>
+                                
+                            </span>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single-service me-2">
+                    <img src="images/service-demo.jpg" class="w-100 h-100 service-img" alt="service">
+                    <div class="service-layout"></div>
+                    <div class="servic-content">
+                        <p class="service-desc">Mutarjimoon surpasses traditional design agencies by providing solutions of lang...</p>
+                        <p class="service-name">Design
+                            <span style="display: block;">
+                                <a href="" class="service-icon">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                    <span class="arrow-circle"></span>
+                                </a>
+                                
+                            </span>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- contact -->
+    <div class="container expHolder ">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="exp-content">
+                        <h2 class="mb-3">We're Here to Listen - <br> Contact Us for Solutions</h2>
+                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                        <div>
+                            <button class="lang-btn"><a href="contact-us.html">Contact us</a></button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div>
+                        <img src="images/Group 48 (1).png" class="w-100" alt="logo">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid mt-5 py-5 " >
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="px-4">
+                        <img src="images/logo.png" class="mb-3" style="width: 60%;">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span  class="footer-br"><br></span> Phasellus vestibulum rhoncus odio. Duis</p>
+                        <p style="color: #0B5355;">Phone: 02 01000322295</p>
+                        <p style="color: #0B5355;">E-mail:  translate@mutarjimoon.com</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-4 col-md-6 col-sm-6  col-xs-6 item">
+                    <div class="ps-5 foot-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About-us.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="freelancer.html">Freelancer</a></li>
+
+                            <div class="footer-icon">
+                                <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                                    style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 item">
+                    <div>
+                        <ul>
+                        <li><a href="translate.html">Quick Translate</a></li>
+                            <li><a href="quote.html">quote</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="footer-icon2 text-center mt-5">
+                        <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                            style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+            </div>
+        </div> 
+    </div>     
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

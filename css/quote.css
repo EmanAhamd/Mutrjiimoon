@@ -1,0 +1,80 @@
+.quoteHolder{
+    margin-top: 5%;
+}
+.quoteHolder h2 {
+    color: #0b5355;
+    line-height: 50px;
+    font-size: 45px;
+}
+.blog-hedline p {
+    font-size: 18px;
+}
+.blog-hedline {
+    margin-top: 5%;
+}
+/* form ---------------------------------------------------------------------------------- */
+form{
+    margin-top: 5% !important;
+}
+.form-label{
+    color: #0b5355;
+    font-size: 18px !important;
+}
+input{
+    height: 40px;
+}
+/* career form */
+#paraphrasingCheck{
+    width: 23px !important;
+    height: 23px !important;
+}
+.form-check{
+    margin-top: 7%;
+    /* padding-left: 10px; */
+}
+/* ... */
+select,
+input{
+    color: #0b5355 !important;
+    font-size: 18px !important;
+    border: 1px solid #0b5355 !important;
+    border-radius: 8px !important;
+    width: 90% !important;
+    filter: drop-shadow(0px 3px 3px rgba(11,83,85,0.13 )) !important;
+
+}
+option{
+    color: #0b5255b6 !important;
+    font-size: 18px !important;
+}
+option:checked{
+    color: #0b5355 !important;
+    background-color: transparent;
+}
+
+select:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1.6px solid #0b5355 !important;
+}
+
+.trans-btn {
+    color: #0b5355;
+    font-size: 18px;
+}
+.trans-btn:hover {
+    color: #eab25e;
+}
+
+.blog-footer {
+    border-top: 2px solid #0b5255ad;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-hedline {
+        flex-wrap: wrap;
+    }
+    .w-50 {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600&family=Lato:ital,wght@1,100;1,300&family=Lora:ital@1&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Poppins:wght@300;400;500&family=Roboto:wght@100&family=Tajawal:wght@200;300;400;500&family=Work+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quote.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="index.html">
+                <img class="logo" src="images/logo.png"   alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-4 mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" aria-current="page" href="About-us.html">About us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link my-nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button"  aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu services-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="service-details.html">Localization</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Translation</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Voice Over</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Transcription</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Content Writing</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Proofreading</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="translate.html">Translate</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link my-nav-link" href="freelancer.html">Freelancer</a>
+                </li>
+
+                <li class="nav-item my-quote text-center">
+                    <a class="nav-link px-4" href="quote.html">Quote</a>
+                </li>
+
+                <li class="nav-item my-contact">
+                    <a class="nav-link px-4" href="contact-us.html">Contact us</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    AR
+                    </a>
+                    <ul class="dropdown-menu lang-menue" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">KR</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="quoteHolder container">
+        <p style="color: #0B5355; font-size: 18px;">
+            <span style="opacity: .6;" >HOME / FREELANCER /</span>
+            <span ></span>
+        </p>
+
+        <form class="row g-3">
+            <div class="col-md-6 mb-3">
+                <label for="name" class="form-label">Full Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="inputEmail4" class="form-label">E-mail Address:</label>
+                <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="Enter email">
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="transField" class="form-label">Translation field:</label>
+                <select id="transField" class="form-select" name="transField">
+                    <option value="Arabic" selected>Arabic</option>
+                    <option value="English">English</option>
+                </select>
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone">
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="motherLang" class="form-label">Mother Language:</label>
+                <input type="text" class="form-control" id="motherLang" name="motherLang" placeholder="Mother Language">
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="counrty" class="form-label">Counrty:</label>
+                <input type="text" class="form-control" id="counrty" name="counrty" placeholder="Counrty">
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <label for="cv" class="form-label">Attach cv:</label>
+                <input type="file" class="form-control" id="cv" name="cv" placeholder="Attach cv">
+            </div>            
+
+            <div class="col-md-6 my-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="paraphrasingCheck" name="paraphrasingCheck">
+                    <label class="form-check-label" for="paraphrasingCheck">
+                        I do paraphrasing
+                    </label>
+                </div>
+            </div>
+            
+            
+            <div class="col-12 text-center my-5">
+                <button  class="read-more-btn trans-btn">Submit</button>
+            </div>
+        </form>
+        
+        
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid mt-5 py-5 blog-footer" >
+        <div class="container">
+            <div class=" row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="px-4">
+                        <img src="images/logo.png" class="mb-3" style="width: 60%;">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span  class="footer-br"><br></span> Phasellus vestibulum rhoncus odio. Duis</p>
+                        <p style="color: #0B5355;">Phone: 02 01000322295</p>
+                        <p style="color: #0B5355;">E-mail:  translate@mutarjimoon.com</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-4 col-md-6 col-sm-6  col-xs-6 item">
+                    <div class="ps-5 foot-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About-us.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="freelancer.html">Freelancer</a></li>
+
+                            <div class="footer-icon">
+                                <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                                    style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 item">
+                    <div>
+                        <ul>
+                        <li><a href="translate.html">Quick Translate</a></li>
+                            <li><a href="quote.html">quote</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="footer-icon2 text-center mt-5">
+                        <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><img class="x-img" src="images/twitter.png" alt="" 
+                            style="margin-right: 23px; width: 24px; margin-bottom: 8px;"></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+            </div>
+    </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
