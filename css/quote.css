@@ -72,9 +72,9 @@ select:focus{
 
 @media screen and (max-width: 768px) {
     .blog-hedline {
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
     }
-    .w-50 {
+    .blog-hedline p {
         width: 100% !important;
     }
 }

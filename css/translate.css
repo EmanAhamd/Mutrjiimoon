@@ -1,13 +1,19 @@
 .expHolder h2 {
   color: #0b5355;
   line-height: 50px;
+  font-size: 45px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.expHolder p{
+  font-size: 20px;
 }
 .expHolder {
-  background-color: #eab25e;
+  background-color: #f1d09d;
   border-radius: 20px;
 }
 .exp-content {
-  padding: 20% 10px 20% 20%;
+  padding: 8% 10px 20% 10%;
 }
 .lang-btn {
   margin: inherit;
@@ -30,7 +36,8 @@
 .translateHolder h2 {
   color: #0b5355;
   line-height: 50px;
-  font-size: 45px;
+  font-size: 53px;
+  letter-spacing: 2px;
 }
 .trans-btn {
   color: #0b5355;

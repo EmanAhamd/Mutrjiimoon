@@ -17,8 +17,18 @@
         .serviceHolder,.serviceDetailsHolder{margin-top: 5% !important;}
         .serviceDetailsHolder{margin-bottom: 10%;}
         .expHolder h2,.serviceDetailsHolder h2{color: #0B5355; line-height: 50px;}
-        .expHolder {background-color: #EAB25E; border-radius: 20px;}
-        .exp-content{padding: 20% 10px 20% 20%;}
+        .expHolder {background-color: #f1d09d; border-radius: 20px;}
+        .exp-content{
+            padding: 10% 10px 0% 0%;
+            position: relative;
+            z-index: 1000;
+            left: 95px;
+        }
+        .expHolder h2{
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
         .lang-btn{margin: inherit;}
         .trans-logo{height: 80%;}
         .serv-pic, .serv-pic-holder{border-radius: 20px;}
@@ -36,10 +46,12 @@
         @media screen and (max-width:768px){
             .service-hedline{flex-wrap: wrap;}
             .w-50{width: 100% !important;}
+            .expHolder h2{font-size: 26px;}
         }
         @media (max-width: 767px) {
             .exp-content {
             padding: 20% 10px 20% 7%;
+            left: 0 !important;
             }
             .exp-content p{
             width: 84%;
@@ -148,7 +160,7 @@
                     <img src="images/demo2.jpg" class="w-100 h-100 service-img" alt="service">
                     <div class="service-layout"></div>
                     <div class="servic-content">
-                        <p class="service-desc" style="margin-bottom: 158px;">That's why voice-over requires high quality, clarity, and tones that suit each...</p>
+                        <p class="service-desc" >That's why voice-over requires high quality, clarity, and tones that suit each...</p>
                         <p class="service-name">Voice Over
                             <span>
                                 <a href="" class="service-icon">
@@ -168,7 +180,7 @@
                     <img src="images/service-demo.jpg" class="w-100 h-100 service-img" alt="service">
                     <div class="service-layout"></div>
                     <div class="servic-content">
-                        <p class="service-desc" style="margin-bottom: 158px;">We have always believed that meanings are way stronger than words...</p>
+                        <p class="service-desc" >We have always believed that meanings are way stronger than words...</p>
                         <p class="service-name">Content Writing
                             <span>
                                 <a href="" class="service-icon">
@@ -209,17 +221,17 @@
     <!-- contact -->
     <div class="container expHolder ">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="exp-content">
                         <h2 class="mb-3">We're Here to Listen - <br> Contact Us for Solutions</h2>
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
+                        <p class="mb-5" style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum rhoncus odio. Duis ut sem a ipsum ultrices consectetur ut quis dui. Maecenas id lacus mollis:</p>
                         <div>
-                            <button class="lang-btn"><a href="contact-us.html">Contact us</a></button>
+                            <button class="lang-btn mb-1"><a href="contact-us.html">Contact us</a></button>
                         </div>
                     </div>
                 </div>
     
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <div>
                         <img src="images/Group 48 (1).png" class="w-100" alt="logo">
                     </div>

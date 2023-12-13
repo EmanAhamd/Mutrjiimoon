@@ -72,16 +72,21 @@
 .serviceHolder {
     margin-top: 5% !important;
 }
-.expHolder h2 {
-    color: #0b5355;
-    line-height: 50px;
-}
 .expHolder {
-    background-color: #eab25e;
+    background-color: #f1d09d; 
     border-radius: 20px;
 }
-.exp-content {
-    padding: 20% 10px 20% 20%;
+.exp-content{
+    padding: 10% 10px 0% 0%;
+    position: relative;
+    z-index: 1000;
+    left: 95px;
+}
+.expHolder h2{
+    color: #0b5355;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 .lang-btn {
     margin: inherit;
