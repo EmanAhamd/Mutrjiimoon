@@ -78,3 +78,14 @@ select:focus{
         width: 100% !important;
     }
 }
+@media (min-width: 1825px){
+    .form-label{
+        font-size: 1.8rem !important;
+    }
+    select, input{
+        height: 60px !important;
+    }
+    .trans-btn{
+        font-size: 1.7rem;
+    }
+}

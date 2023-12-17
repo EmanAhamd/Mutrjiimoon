@@ -122,9 +122,9 @@ select:focus{
   .blog-hedline {
     flex-wrap: wrap;
   }
-  .w-50 {
+  .blog-hedline p {
     width: 100% !important;
-  }
+}
 }
 @media (max-width: 767px) {
   .fa-right-left{
